@@ -1,0 +1,36 @@
+Products and Pricing
+====================
+
+1. Acme Starter Plan
+   Price: $29/month
+   Features:
+   - Up to 5 users
+   - 10 GB storage
+   - Email support
+   - Basic analytics
+
+2. Acme Professional Plan
+   Price: $99/month
+   Features:
+   - Up to 25 users
+   - 100 GB storage
+   - Priority email support
+   - Advanced analytics
+   - API access
+   - Custom integrations
+
+3. Acme Enterprise Plan
+   Price: Custom pricing (contact sales)
+   Features:
+   - Unlimited users
+   - Unlimited storage
+   - 24/7 dedicated support
+   - Custom development
+   - SLA guarantee
+   - On-premise deployment option
+
+All plans include:
+- 14-day free trial
+- No setup fees
+- Cancel anytime
+- Automatic updates

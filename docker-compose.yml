@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  qna-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qna-agent
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_API_BASE=${OPENAI_API_BASE:-https://api.openai.com/v1}
+      - LLM_MODEL=${LLM_MODEL:-gpt-3.5-turbo}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-text-embedding-3-small}
+      - DATABASE_PATH=/app/data/qna.db
+      - KNOWLEDGE_PATH=/app/knowledge
+    volumes:
+      - ./data:/app/data
+      - ./knowledge:/app/knowledge:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

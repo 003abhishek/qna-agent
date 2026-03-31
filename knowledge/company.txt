@@ -1,0 +1,21 @@
+Company Overview
+================
+
+Acme Technologies is a software company founded in 2015.
+Headquarters: San Francisco, California, USA.
+Employees: 500+
+Annual Revenue: $50 million
+
+Mission: To simplify business operations through innovative software solutions.
+
+Core Values:
+- Innovation: We constantly push boundaries
+- Customer Focus: Our customers success is our priority
+- Integrity: We maintain highest ethical standards
+- Teamwork: We achieve more together
+
+Contact Information:
+- Website: www.acme-tech.example.com
+- Email: info@acme-tech.example.com
+- Phone: 1-800-ACME-TECH
+- Address: 123 Tech Street, San Francisco, CA 94105

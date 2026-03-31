@@ -1,0 +1,26 @@
+Technical Support FAQ
+=====================
+
+Q: How do I reset my password?
+A: Go to the login page, click "Forgot Password", enter your email, and follow the instructions sent to your inbox. The reset link expires in 24 hours.
+
+Q: What browsers are supported?
+A: We support Chrome, Firefox, Safari, and Edge (latest versions). Internet Explorer is not supported.
+
+Q: How do I contact support?
+A: You can reach us via:
+   - Email: support@acme-tech.example.com
+   - Phone: 1-800-ACME-HELP (Mon-Fri, 9AM-6PM EST)
+   - Live chat: Available on our website during business hours
+
+Q: What is the API rate limit?
+A: Rate limits depend on your plan:
+   - Starter: 100 requests/minute
+   - Professional: 1000 requests/minute
+   - Enterprise: Custom limits
+
+Q: How do I export my data?
+A: Go to Settings > Data Management > Export. You can export in CSV, JSON, or XML format. Large exports are sent via email.
+
+Q: Is my data secure?
+A: Yes. We use AES-256 encryption, regular security audits, and are SOC 2 Type II certified. All data is backed up daily.
